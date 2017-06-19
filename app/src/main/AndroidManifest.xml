@@ -24,7 +24,7 @@
 
 
 
-        <!--WHEN THE APPLIANCE IS RESTARTED-->
+        <!--  WHEN THE APPLIANCE IS RESTARTED -->
         <receiver android:process=":remote" android:name=".BrodcastReceiver_reboot">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
@@ -32,7 +32,7 @@
             </intent-filter>
         </receiver>
 
-        <!--EXECUTE EVERY TIME IT WAS PROGAMATED AS AN ALARM-->
+        <!--  EXECUTE EVERY TIME IT WAS PROGAMATED AS AN ALARM  -->
         <receiver android:process=":remote" android:name="Notification_reciever">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
